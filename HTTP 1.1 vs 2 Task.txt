@@ -1,0 +1,19 @@
+Difference Between HTTP 1.1 vs HTTP 2
+
+Definition of HTTP:-
+HTTP is a network delay-sensitive protocol in the sense that if there is less network delay, then the page loads faster. However, an impressive increase in network bandwidth only slightly improves page load time. This is key to understanding the differences in performance efficiencies between the different versions of HTTP.
+
+HTTP 1.1:-
+HTTP 1.1 is the latest version of HTTP, it is faster than the older version of HTTP for example HTTP 1.1 provides faster delivery of web pages than normal HTTP.
+
+HTTP 2:-
+HTTP 2 will make our application faster, simpler, and more robust(strong). Even better, it also opens up a number of entirely new opportunities to optimize our applications and improve performance!
+
+Difference Between HTTP 1 vs HTTP 2:-
+HTTP 2 is much faster and more reliable than HTTP 1
+HTTP 1.1 loads a single request for every TCP Connection whereas,
+HTTP 2 uses Multiplexing for network delay.
+HTTP 1.1 is secure since it uses digest authentication.
+HTTP 2 also uses the same security which we saw in the previous versions, but it is better equipped to deal with them due to new features like connection error of type inadequate.
+HTTP 1 expands on the caching support with additional headers like cache control.
+HTTP 2 does not change much in terms of caching.
