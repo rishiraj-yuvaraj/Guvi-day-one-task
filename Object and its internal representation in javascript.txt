@@ -30,3 +30,5 @@ Create JavaScript Object with Object Literal
 One of the easiest ways to create a javascript object is object literal, simply define the property and values inside curly braces as shown below
 
 let bike = {name: 'SuperSport', maker:'Ducati', engine:'937cc'};
+
+For reference please check on my medium blog : https://medium.com/@rraj39667/objects-and-its-internal-representation-in-javascript-d78aa20fc55b
