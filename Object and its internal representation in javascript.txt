@@ -1,0 +1,32 @@
+Objects and its Internal representation in Javascript
+Object in javascript is its important data type and forms the building blocks for modern javascript. These objects are quite different from primitive data types(Number, String, boolean, null, undefined, and symbol) in the sense that all these primitive data types stores a single value each(depending on the data type).
+
+Objects are more complex, each object may contain any combination of the primitive data types as well as reference data types. An object is a reference type. Variables that are assigned to the reference value are given reference or pointer to that value. The location of reference and pointer are stored where the same object is to be stored. Actually, the variables don’t store the value.
+
+Objects in javascript may be defined as an unordered collection of related data of primitive or reference data types in the form of “Key: Value” pairs. These keys can be variables or functions and are called Properties and methods.
+
+For Eg. If your object is a student, it will have properties like name, age, address, id, etc, and methods like updateAddress, updateName, etc.
+
+Objects and properties
+A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation:
+
+objectName.propertyName
+Like all JavaScript variables, both the object name (which could be a normal variable) and property name are case sensitive. You can define a property by assigning it a value. For example, let’s create an object named myCar and give it properties named make, model, and year as follows:
+
+var myCar = new Object();
+myCar.make = 'Ford';
+myCar.model = 'Mustang';
+myCar.year = 1969;
+Unassigned properties of an object are undefined (and not null).
+
+myCar.color; // undefined
+Properties of JavaScript objects can also be accessed or set using a bracket notation. Objects are sometimes called associative arrays since each property is associated with a string value that can be used to access it. So, for example, you could access the properties of the myCar object as follows:
+
+myCar['make'] = 'TATA';
+myCar['model'] = 'Indica';
+myCar['year'] = 1978;
+Creating Objects In JavaScript :
+Create JavaScript Object with Object Literal
+One of the easiest ways to create a javascript object is object literal, simply define the property and values inside curly braces as shown below
+
+let bike = {name: 'SuperSport', maker:'Ducati', engine:'937cc'};
